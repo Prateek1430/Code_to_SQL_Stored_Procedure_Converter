@@ -1,0 +1,52 @@
+:root {
+  --text: #ddd;
+  --text-2: #9aa0a6;
+  --text-h: #fff;
+  --bg: #0d0d0f;
+  --panel-bg: #1c1c1e;
+  --input-bg: #111113;
+  --border: #2e2e33;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/150% var(--sans);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1, h2, h3 {
+  font-family: var(--sans);
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0 0 8px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+button {
+  font-family: inherit;
+}
+
+select, textarea, button {
+  font-size: 14px;
+}
